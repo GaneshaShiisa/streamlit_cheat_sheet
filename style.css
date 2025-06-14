@@ -1,0 +1,19 @@
+/* リンクのベーススタイル */
+.white-link-on-hover {
+    color: white !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+/* マウスオーバー時のスタイル */
+.white-link-on-hover:hover {
+    color: #007bff !important;
+}
+
+img[data-testid="stLogo"] {
+    height: 4.5rem;
+}
+
+div[data-testid="stSidebarNav"] ul[data-testid="stSidebarNavItems"] li a[data-testid="stSidebarNavLink"] {
+    font-size: large;
+}
